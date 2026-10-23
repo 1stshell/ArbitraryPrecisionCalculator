@@ -1,0 +1,94 @@
+#-------------------------------
+# For use with C projects only and in particular where the build is managed by makefiles.
+#-------------------------------
+
+# Ignore build outputs and related directories
+#-----------------------------------------------
+
+/build/
+/bin/
+/out/
+/dist/
+make-build/
+cmake-build-*/
+*/cmake-build-*/
+build-*/
+Debug/
+Release/
+output/
+objects/
+
+# Object files, binary files
+#----------------------------
+
+*.o
+*.obj
+*.lo
+
+# Static libaries (delete this where required !!)
+#-------------------------------------------------
+*.a
+*.lib
+*.la
+*.so
+*.dylib
+*.dll
+
+# Executables
+#-------------
+
+*.exe
+*.out
+a.out
+core
+
+# CMake
+#--------
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+Testing/
+
+# Editors
+#---------
+.idea/
+*.iml
+*~
+*.swp
+*.swo
+.vscode/
+*.code-workspace
+.DS_Store
+
+# Windows System
+#-----------------
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Debug Files
+#--------------
+*.dSYM/
+*.pdb
+*.prof
+*.gcda
+*.gcno
+coverage/
+
+# Logs
+#-------
+*.log
+*.tmp
+*.temp
+
+# Archives
+#-----------
+*.tar.gz
+*.zip
+*.7z
+
+# Misc
+@----------
+*.ink
+Note.txt
